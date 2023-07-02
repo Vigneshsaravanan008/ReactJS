@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+body {
+  background-image: url("https://delinea.com/hubfs/Delinea/backgrounds/delinea-background-purple-tight.jpg");
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.content {
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  color: hsl(200, 100%, 30%);
+  display: flex;
+  justify-content: start;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+.input_field {
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-size: x-large;
+  color: green;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.generate_button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.header_content{
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.checkbox{
+    margin-left:10px;
+}
