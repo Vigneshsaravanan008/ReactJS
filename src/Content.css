@@ -17,9 +17,8 @@ body {
   margin-top: 15px;
 }
 
-.input_field {
-  margin-left: 150px;
-  margin-top: 25px;
+.container{
+  max-width: 720px;
 }
 
 a {

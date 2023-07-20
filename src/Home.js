@@ -44,22 +44,20 @@ function Home() {
     return (
         <div>
             <Header />
-            <div className="justify-content-center">
+            <div className="container">
                 <div className="content">
                     Generate a Strong Password!
                 </div>
                 <div className="input_field">
-                    <div className="row col-md-6">
-                        <InputGroup size="lg">
-                            <Form.Control
-                                aria-label="Large"
-                                aria-describedby="inputGroup-sizing-sm"
-                                value={password}
-                            />
-                        </InputGroup>
-                    </div>
+                    <InputGroup size="lg">
+                        <Form.Control
+                            aria-label="Large"
+                            aria-describedby="inputGroup-sizing-sm"
+                            value={password}
+                        />
+                    </InputGroup>
                     <Button className="generate_button" variant="primary" onClick={() => generatePassword()}>Generate Password</Button>
-                    <div className="col-md-6 mt-4">
+                    <div className="mt-4">
                         <Card>
                             <Card.Body>
                                 <div>
