@@ -1,0 +1,12 @@
+.border-no{
+    border:2px solid gray; 
+}
+.getquestion{
+    border:1px solid grey; 
+    border-radius: 10%; 
+    cursor: pointer;
+    /* background-color: red; */
+}
+.question_colot{
+    background-color: red;
+}
